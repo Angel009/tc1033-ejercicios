@@ -25,4 +25,6 @@ if __name__ == '__main__':
     run(12)
     run(9)
     run(15)
-   
+    print(perceptron(1,5,1,5))
+    print(perceptron(1,10,1,5))
+    print(perceptron(1,5,1,10))
