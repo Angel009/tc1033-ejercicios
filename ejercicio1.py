@@ -10,6 +10,11 @@ def run(number):
     else:
         print(number, "no está entre el 0 y el 10")
 
+def perceptron(a,b,c,d):
+    if (((a*b)+(c*d))>20):
+        return 1
+    else:
+        return 0
 
 
 if __name__ == '__main__':
@@ -20,3 +25,4 @@ if __name__ == '__main__':
     run(12)
     run(9)
     run(15)
+   
